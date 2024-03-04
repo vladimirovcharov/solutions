@@ -4,6 +4,9 @@ jobs:
   build:
     docker:
       - image: cimg/openjdk:19
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run: java --version
