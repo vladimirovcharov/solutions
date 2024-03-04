@@ -8,6 +8,9 @@ jobs:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - $FINGER_PRINT
       - checkout
       - run: java --version
       - run: mvn clean install
