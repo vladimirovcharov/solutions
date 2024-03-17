@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MaximumDepthOfBinaryTreeTest {
+class MaximumDepthOfBinaryTree104Test {
 
     @Test
     void maxDepth() {
@@ -12,6 +12,6 @@ class MaximumDepthOfBinaryTreeTest {
         TreeNode right = new TreeNode(20, new TreeNode(15), new TreeNode(7));
         TreeNode node = new TreeNode(3, left, right);
 
-        assertEquals(3, MaximumDepthOfBinaryTree.maxDepth(node));
+        assertEquals(3, MaximumDepthOfBinaryTree104.maxDepth(node));
     }
 }

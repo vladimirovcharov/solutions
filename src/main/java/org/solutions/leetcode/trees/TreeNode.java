@@ -1,12 +1,9 @@
 package org.solutions.leetcode.trees;
 
-class TreeNode {
+public class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
-
-    TreeNode() {
-    }
 
     TreeNode(int val) {
         this.val = val;

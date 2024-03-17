@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AddTwoNumbersTest {
+class AddTwoNumbers2Test {
 
     @Test
     void addTwoNumbers() {
@@ -17,7 +17,7 @@ class AddTwoNumbersTest {
         ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
         ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
 
-        ListNode actual = AddTwoNumbers.addTwoNumbers(l1, l2);
+        ListNode actual = AddTwoNumbers2.addTwoNumbers(l1, l2);
         assertNotNull(actual);
 
         ListNode expected = new ListNode(7, new ListNode(0, new ListNode(8)));
@@ -37,7 +37,7 @@ class AddTwoNumbersTest {
         ListNode l1 = new ListNode(0, new ListNode(0, null));
         ListNode l2 = new ListNode(0, null);
 
-        ListNode actual = AddTwoNumbers.addTwoNumbers(l1, l2);
+        ListNode actual = AddTwoNumbers2.addTwoNumbers(l1, l2);
         assertNotNull(actual);
 
         ListNode expected = new ListNode(0);
@@ -55,7 +55,7 @@ class AddTwoNumbersTest {
                 new ListNode(9, new ListNode(9, new ListNode(9)))))));
         ListNode l2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
 
-        ListNode actual = AddTwoNumbers.addTwoNumbers(l1, l2);
+        ListNode actual = AddTwoNumbers2.addTwoNumbers(l1, l2);
         assertNotNull(actual);
 
         ListNode expected = new ListNode(8, new ListNode(9, new ListNode(9, new ListNode(9,

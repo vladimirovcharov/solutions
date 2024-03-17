@@ -1,6 +1,6 @@
 package org.solutions.leetcode.trees;
 
-public class MaximumDepthOfBinaryTree {
+public class MaximumDepthOfBinaryTree104 {
     public static int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;

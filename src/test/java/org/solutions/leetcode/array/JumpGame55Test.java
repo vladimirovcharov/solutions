@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.solutions.leetcode.array.JumpGame55.canJump;
 
-class JumpGameTest {
+class JumpGame55Test {
     @Test
     void testCanJump() {
         assertTrue(canJump(new int[]{2, 3, 1, 1, 4}));

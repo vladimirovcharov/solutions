@@ -2,7 +2,7 @@ package org.solutions.leetcode.linkedlist;
 
 import java.math.BigInteger;
 
-public class AddTwoNumbers {
+public class AddTwoNumbers2 {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode reversedL1 = reverseList(l1);
